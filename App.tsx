@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import MainNavigator from './src/components/navigation/MainNavigator';
-import {CartProvider} from '../myapp/src/components/context/CartContext';
+import {CartProvider} from './src/components/context/CartContext';
 
 const App: React.FC = () => {
   return (
